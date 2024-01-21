@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(36, 36, 36);
+    color: lightcyan;
+    font-family: Andale Mono;
+    margin: 0px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    padding: 3vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-right: 0;
+    margin-bottom: 5vh;
+    background-color: darkslategrey;
+    padding-left:10vh;
+    padding-right: 10vw;
+    border-bottom: 2px solid coral;
+    font-size: 2.5vh;
+}
+
+/* h1{
+    padding: 2vh;
+    margin: 0;
+} */
+
+.grid{
+    display: grid;
+    grid-template-rows: repeat(2,24vw);
+    grid-template-columns: repeat(2,32vw);
+    gap: 2vh;
+}
+
+/* .tile{
+    height: 3vh;
+    width: 4vh;
+} */
+
+img{
+    height: 24vw;
+    width: 32vw;
+    border: 2px solid darkslategray;
+    border-radius: 4px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover{
+    transform: scale(1.02);
+}
+

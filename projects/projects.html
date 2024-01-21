@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects (most of them)</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <div id="header" >
+        <div >
+            <a href="../index.html">about</a>
+        </div>
+
+        <div >
+            <a href="projects.html" id="current">projects</a>
+        </div>
+
+        <!-- <div>
+            <a href="repos.html">repos</a>
+        </div> -->
+
+        <!-- <div>
+            <a href="blog.html">blog</a>
+        </div> -->
+
+        <div>
+            <a href="cv.html">cv</a>
+        </div>
+    </div>
+    
+    <div id="main">
+        
+        <div id="projs">
+            <h2>newest/featured</h2>
+            <div class="proj">
+                <!-- js will insert img here -->
+                <img src="../assets/demos/sd/cherry_blossom.gif" class="proj_img">
+                <div class="proj_desc">
+                    <h3>Visualising Image Generation using Stable Diffusion</h3>
+                    <div>I implemented the Stable Diffusion paper from scratch (with the help of <a href="https://www.youtube.com/watch?v=ZBKpAp_6TGI">this tutorial</a>),
+                         and added the functionality to animate the image generation process. More animated generations can be found <a href="">here</a>. 
+                    </div>
+                    <br>
+                    <div>[<a href="https://github.com/Harshvardhan-Mestha/stable_diffusion_pytorch">repo</a>]</div>
+                </div>
+            </div>
+            <div class="proj">
+                <img src="../assets/demos/xkcd.gif" class="proj_img">
+                <div class="proj_desc">
+                    <h3>Relevant XKCD</h3>
+                    <div>
+                        I made a website to find the most relevant XKCD comic based on the prompt you type.
+                        Embeddings of the comic explanations were made, and the most relevant comics are fetched using a
+                        similarity search. The website is a Flask application. 
+                    </div>
+                    <br>
+                    <div>[<a href="https://github.com/Harshvardhan-Mestha/relevant_xkcd">repo</a>][<a href="https://relevantxkcd.me/">link</a>]</div>
+                </div>
+            </div>
+            <div class="proj">
+                <img src="../assets/demos/softmax.gif" class="proj_img">
+                <div class="proj_desc">
+                    <h3>Variations of Softmax on a CNN Classifier</h3>
+                    <div>
+                        I tested variations of the Softmax activation function on a CNN classifier. I found that taking the logarithm of a variant increased accuracy and converged faster.
+                         
+                    </div>
+                    <br>
+                    <div>[<a href="https://github.com/Harshvardhan-Mestha/SAiDL_Assignment/tree/main/Question_1">repo</a>][<a href="https://github.com/Harshvardhan-Mestha/SAiDL_Assignment/blob/main/saidl_final_report_q1.pdf">link</a>]</div>
+                </div>
+            </div>
+        </div>
+        <hr color="coral" width="100%" height="2px">
+        <div id="projs">
+            <h2>xcode</h2>
+            <div id="xcode_desc">These are much older Swift projects made from 2018 to 2020. All the featured apps were made without following a tutorial for their logic (spaghetti code warning :P).
+                 The image assets for the graphics are also made by me. I have made many more (albeit simpler) applications in Swift, the source code to which can be found below in a larger repository:</div>
+            <div>
+                [<a href="https://github.com/Harshvardhan-Mestha/swift_xcode_projects_old">main repo</a>]
+            </div>
+            <div id="xcode_imgs">
+                <div class="xcproj">
+                    <div><img src="../assets/demos/xcode/chess.gif" class="proj_img"></div>
+                    <div>[<a href="https://github.com/Harshvardhan-Mestha/swift_xcode_projects_old/tree/main/Chess">chess</a>]</div>
+                </div>
+                <div class="xcproj">
+                    <div><img src="../assets/demos/xcode/minesweeper.gif" class="proj_img"></div>
+                    <div>[<a href="https://github.com/Harshvardhan-Mestha/swift_xcode_projects_old/tree/main/Minesweeper">minesweeper</a>]</div>
+                </div>
+                <div class="xcproj">
+                    <div><img src="../assets/demos/xcode/tetris.gif" class="proj_img"></div>
+                    <div>[<a href="https://github.com/Harshvardhan-Mestha/swift_xcode_projects_old/tree/main/Tetris">tetris</a>]</div>
+                </div>
+            </div>
+        </div>
+        <hr color="coral" width="100%" height="2px">
+        <div id="courses">
+            <h2>courses</h2>
+            <ul>
+                <li>Stanford CS231n: Convolutional Neural Networks for Visual Recognition [<a href="https://github.com/Harshvardhan-Mestha/cs231n">my assignment solutions</a>]</li>
+                <li>Stanford CS229: Machine Learning</li>
+                <li>Odin Project: Foundations</li>
+                <li>Coursera: Applied Machine Learning in Python</li>
+            </ul>
+            <div>a more exhaustive list can be found [<a href="https://www.linkedin.com/in/harshvardhan-mestha-14b0481bb/details/certifications/">here</a>]</div>
+        </div>
+        <div id="footer">
+
+        </div>
+
+    </div>
+</body>
+</html>
